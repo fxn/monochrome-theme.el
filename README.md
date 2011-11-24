@@ -2,7 +2,7 @@ A monochrome theme for Emacs 24.
 
 Just throw _monochrome-theme.el_ into _~/.emacs.d_ and execute
 
-    M-x load-theme RET monochrome
+    M-x load-theme RET monochrome RET
 
 or put in your init file
 
