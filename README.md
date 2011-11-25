@@ -1,4 +1,4 @@
-A monochrome theme for Emacs 24.
+A gray on black Emacs 24 theme for your focused hacking sessions.
 
 Just throw _monochrome-theme.el_ into _~/.emacs.d_ and execute
 
@@ -9,7 +9,7 @@ or put in your init file
     (load-theme 'monochrome)
 
 This theme is based on the builtin dichromacy theme, it is basically
-white on black, except for errors and a few things.
+gray on black, except for errors and a few things.
 
 Patches welcome!
 

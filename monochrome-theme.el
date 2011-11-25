@@ -1,4 +1,4 @@
-;;; monochrome-theme.el --- monochrome color theme
+;;; monochrome-theme.el --- gray on black for your focused hacking sessions
 
 ;; Copyright (C) 2011 Xavier Noria
 ;;
@@ -18,7 +18,7 @@
 ;; Works with Emacs 24.
 
 (deftheme monochrome
-  "Monochrome color theme based on dichromacy.")
+  "Gray on black for your focused hacking sessions.")
 
 (let ((class '((class color) (min-colors 10)))
       (black "black")
@@ -52,8 +52,7 @@
    ;; Escape and prompt faces
    `(minibuffer-prompt ((,class (:weight bold :foreground ,lgray))))
    `(escape-glyph ((,class (:foreground ,lgray))))
-   `(error ((,class (:weight bold :slant italic
-			     :foreground "red"))))
+   `(error ((,class (:weight bold :slant italic :foreground "red"))))
    `(warning ((,class (:foreground "yellow"))))
    `(success ((,class (:foreground "green"))))
 
