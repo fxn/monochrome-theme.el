@@ -4,16 +4,15 @@
 ;;
 ;; Author: Xavier Noria <fxn@hashref.com>
 ;;
-;; This theme is based on the builtin dichromacy theme, it is basically
-;; white on black, except for errors and a few things.
-;;
-;; Just throw it into ~/.emacs.d and
+;; Just throw this file into ~/.emacs.d and
 ;;
 ;;     M-x load-theme RET monochrome RET
 ;;
 ;; or put in your init file
 ;;
 ;;     (load-theme 'monochrome)
+;;
+;; This theme is based on the builtin dichromacy theme.
 ;;
 ;; Works with Emacs 24.
 
