@@ -38,16 +38,16 @@
    `(highlight ((,class (:foreground ,black :background ,lgray))))
    `(region ((,class (:foreground ,black :background ,lgray))))
    `(secondary-selection ((,class (:foreground: ,black :background ,sgray))))
-   `(isearch ((,class (:foreground "black" :background ,lgray))))
-   `(lazy-highlight ((,class (:foreground "black" :background ,lgray))))
+   `(isearch ((,class (:foreground ,black :background ,lgray))))
+   `(lazy-highlight ((,class (:foreground ,black :background ,lgray))))
    `(trailing-whitespace ((,class (:background ,lgray))))
 
    ;; Mode line faces
    `(mode-line ((,class (:box (:line-width -1 :style released-button)
-			      :background "#e5e5e5" :foreground "black"))))
+			      :background "#e5e5e5" :foreground ,black))))
    `(mode-line-inactive ((,class (:box (:line-width -1 :style released-button)
 				       :background "#b0b0b0"
-				       :foreground "black"))))
+				       :foreground ,black))))
 
    ;; Escape and prompt faces
    `(minibuffer-prompt ((,class (:weight bold :foreground ,lgray))))
@@ -55,7 +55,7 @@
    `(error ((,class (:weight bold :slant italic
 			     :foreground "red"))))
    `(warning ((,class (:foreground "yellow"))))
-   `(success ((,class (:foreground "gree"))))
+   `(success ((,class (:foreground "green"))))
 
    ;; Font lock faces
    `(font-lock-builtin-face ((,class (:foreground ,lgray))))
@@ -66,6 +66,7 @@
    `(font-lock-string-face ((,class (:foreground ,sgray))))
    `(font-lock-type-face ((,class (:weight bold :foreground ,lgray))))
    `(font-lock-variable-name-face ((,class (:weight bold :foreground ,sgray))))
+   `(font-lock-warning-face ((,class (:foreground "yellow"))))
 
    ;; Button and link faces
    `(link ((,class (:underline t :foreground ,lgray))))
@@ -112,7 +113,7 @@
 
   (custom-theme-set-variables
    'monochrome
-   `(ansi-color-names-vector ["black" ,lgray])))
+   `(ansi-color-names-vector [,black ,lgray ,dgray ,sgray])))
 
 (provide-theme 'monochrome)
 
