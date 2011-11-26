@@ -70,6 +70,14 @@
    `(link ((,class (:underline t :foreground ,lgray))))
    `(link-visited ((,class (:underline t :foreground ,lgray))))
 
+   ;; Speedbar
+   `(speedbar-button-face ((,class (:foreground ,dgray))))
+   `(speedbar-file-face ((,class (:foreground ,lgray))))
+   `(speedbar-directory-face ((,class (:weight bold :foreground ,white))))
+   `(speedbar-tag-face ((,class (:foreground ,dgray))))
+   `(speedbar-selected-face ((,class (:weight bold :underline ,sgray :foreground ,sgray))))
+   `(speedbar-highlight-face ((,class (:weight bold :background ,black :foreground ,white))))
+
    ;; Gnus faces
    `(gnus-group-news-1 ((,class (:weight bold :foreground ,lgray))))
    `(gnus-group-news-1-low ((,class (:foreground ,lgray))))
