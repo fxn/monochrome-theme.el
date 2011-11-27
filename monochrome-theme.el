@@ -75,12 +75,12 @@
    `(speedbar-file-face ((,class (:foreground ,lgray))))
    `(speedbar-directory-face ((,class (:weight bold :foreground ,white))))
    `(speedbar-tag-face ((,class (:foreground ,dgray))))
-   `(speedbar-selected-face ((,class (:weight bold :underline ,sgray :foreground ,sgray))))
+   `(speedbar-selected-face ((,class (:underline ,sgray :foreground ,lgray))))
    `(speedbar-highlight-face ((,class (:weight bold :background ,black :foreground ,white))))
 
    ;; Ido
    `(ido-first-match ((,class (:foreground ,lgray))))
-   `(ido-only-match ((,class (:underline ,lgray :foreground "green"))))
+   `(ido-only-match ((,class (:underline ,lgray :foreground ,lgray))))
    `(ido-subdir ((,class (:weight bold :foreground ,white))))
 
    ;; Gnus faces
