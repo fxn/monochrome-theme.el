@@ -39,7 +39,7 @@
    `(secondary-selection ((,class (:foreground: ,black :background ,sgray))))
    `(isearch ((,class (:foreground ,black :background ,lgray))))
    `(lazy-highlight ((,class (:foreground ,black :background ,lgray))))
-   `(trailing-whitespace ((,class (:background ,lgray))))
+   `(trailing-whitespace ((,class (:background "red"))))
 
    ;; Mode line faces
    `(mode-line ((,class (:box (:line-width -1 :style released-button)
