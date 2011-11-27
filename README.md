@@ -1,4 +1,6 @@
-A gray on black Emacs 24 theme for your focused hacking sessions.
+# monochrome - A gray on black Emacs 24 theme for your focused hacking sessions
+
+## Installation
 
 Just throw _monochrome-theme.el_ into _~/.emacs.d_ and execute
 
@@ -13,4 +15,16 @@ gray on black, except for errors and a few things.
 
 Patches welcome!
 
-![Monochrome Theme for Emacs 24](http://github.com/fxn/monochrome-theme.el/raw/master/monochrome-theme.el.png)
+## Screenshots
+
+### Source Code
+
+![Monochrome Theme for Emacs 24: Source Code](http://github.com/fxn/monochrome-theme.el/raw/master/monochrome-theme.el.png)
+
+### Speedbar
+
+![Monochrome Theme for Emacs 24: Speedbar](http://github.com/fxn/monochrome-theme.el/raw/master/speedbar.png
+
+### ido
+
+![Monochrome Theme for Emacs 24: ido](http://github.com/fxn/monochrome-theme.el/raw/master/ido.png
