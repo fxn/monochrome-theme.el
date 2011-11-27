@@ -78,6 +78,11 @@
    `(speedbar-selected-face ((,class (:weight bold :underline ,sgray :foreground ,sgray))))
    `(speedbar-highlight-face ((,class (:weight bold :background ,black :foreground ,white))))
 
+   ;; Ido
+   `(ido-first-match ((,class (:foreground ,lgray))))
+   `(ido-only-match ((,class (:underline ,lgray :foreground "green"))))
+   `(ido-subdir ((,class (:weight bold :foreground ,white))))
+
    ;; Gnus faces
    `(gnus-group-news-1 ((,class (:weight bold :foreground ,lgray))))
    `(gnus-group-news-1-low ((,class (:foreground ,lgray))))
