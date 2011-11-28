@@ -1,4 +1,4 @@
-# monochrome - A gray on black Emacs 24 theme for your focused hacking sessions
+# monochrome - A dark Emacs 24 theme for your focused hacking sessions
 
 ## Installation
 

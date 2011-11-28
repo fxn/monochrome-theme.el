@@ -1,4 +1,4 @@
-;;; monochrome-theme.el --- gray on black for your focused hacking sessions
+;;; monochrome-theme.el --- A dark Emacs 24 theme for your focused hacking sessions
 
 ;; Copyright (C) 2011 Xavier Noria
 ;;
