@@ -75,13 +75,24 @@
    `(speedbar-file-face ((,class (:foreground ,lgray))))
    `(speedbar-directory-face ((,class (:weight bold :foreground ,white))))
    `(speedbar-tag-face ((,class (:foreground ,dgray))))
-   `(speedbar-selected-face ((,class (:underline ,sgray :foreground ,lgray))))
+   `(speedbar-selected-face ((,class (:underline ,lgray :foreground ,lgray))))
    `(speedbar-highlight-face ((,class (:weight bold :background ,black :foreground ,white))))
 
-   ;; Ido
+   ;; ido
    `(ido-first-match ((,class (:foreground ,lgray))))
    `(ido-only-match ((,class (:underline ,lgray :foreground ,lgray))))
    `(ido-subdir ((,class (:weight bold :foreground ,white))))
+
+   ;; MuMaMo
+   `(mumamo-background-chunk-major ((,class (:background ,black))))
+   `(mumamo-background-chunk-submode1 ((,class (:background ,black))))
+   `(mumamo-background-chunk-submode2 ((,class (:background ,black))))
+   `(mumamo-background-chunk-submode3 ((,class (:background ,black))))
+   `(mumamo-background-chunk-submode4 ((,class (:background ,black))))
+   `(mumamo-border-face-in ((,class (:slant unspecified :underline unspecified
+                                     :weight bold :foreground ,white))))
+   `(mumamo-border-face-out ((,class (:slant unspecified :underline unspecified
+                                      :weight bold :foreground ,white))))
 
    ;; Gnus faces
    `(gnus-group-news-1 ((,class (:weight bold :foreground ,lgray))))
