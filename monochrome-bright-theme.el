@@ -1,3 +1,4 @@
+
 ;;; monochrome-bright-theme.el --- A bright Emacs 24 theme for your focused hacking sessions during the day
 
 ;; Copyright (C) 2011 Xavier Noria
@@ -49,11 +50,11 @@
 :foreground ,black))))
 
    ;; Escape and prompt faces
-   `(minibuffer-prompt ((,class (:weight bold :foreground ,dgray))))
-   `(escape-glyph ((,class (:foreground ,dgray))))
-   `(error ((,class (:background dgray :weight bold :slant italic :foreground "red"))))
-   `(warning ((,class (:background dgray  :foreground "yellow"))))
-   `(success ((,class (:background dgray :foreground "green"))))
+    `(minibuffer-prompt ((,class (:weight bold :foreground ,dgray))))
+    `(escape-glyph ((,class (:foreground ,dgray))))
+    `(error ((,class (:background ,dgray :weight bold :slant italic :foreground "red"))))
+    `(warning ((,class (:background ,dgray :foreground "yellow"))))
+    `(success ((,class (:background ,dgray :foreground "green"))))
 
    ;; Font lock faces
    `(font-lock-builtin-face ((,class (:foreground ,dgray))))
@@ -127,17 +128,16 @@
    `(message-header-to ((,class (:weight bold :foreground ,dgray))))
    `(message-cited-text ((,class (:slant italic :foreground ,dgray))))
    `(message-separator ((,class (:weight bold :foreground ,dgray))))
+
    ;; Flyspell
-   `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified
-:slant unspecified :underline ,dgray))))
-   `(flyspell-incorrect ((,class (:weight unspecified :foreground unspecified
-:slant unspecified :underline ,dgray)))))
+   `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified :slant unspecified :underline ,dgray))))
+   `(flyspell-incorrect ((,class (:weight unspecified :foreground unspecified :slant unspecified :underline ,dgray)))))
 
   (custom-theme-set-variables
    'monochrome-bright
    `(ansi-color-names-vector [,white ,dgray ,lgray ,sgray])))
 
-(provide-theme 'monochrome-bright-theme)
+(provide-theme 'monochrome-bright)
 
 ;; Local Variables:
 ;; no-byte-compile: t
