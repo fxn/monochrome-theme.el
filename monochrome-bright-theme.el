@@ -35,7 +35,7 @@
 
    ;; Highlighting faces
    `(fringe ((,class (:background ,dgray))))
-   `(highlight ((,class (:foreground ,white :background ,dgray))))
+   `(highlight ((,class (:foreground ,white :background ,sgray))))
    `(region ((,class (:foreground ,white :background ,dgray))))
    `(secondary-selection ((,class (:foreground: ,white :background ,sgray))))
    `(isearch ((,class (:foreground ,white :background ,dgray))))
