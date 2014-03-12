@@ -1,6 +1,6 @@
 ;;; monochrome-theme.el --- A dark Emacs 24 theme for your focused hacking sessions
 
-;; Copyright (C) 2011 Xavier Noria
+;; Copyright (C) 2011-2014 Xavier Noria
 ;;
 ;; Author: Xavier Noria <fxn@hashref.com>
 ;;
@@ -39,6 +39,7 @@
    `(secondary-selection ((,class (:foreground: ,black :background ,sgray))))
    `(isearch ((,class (:foreground ,black :background ,lgray))))
    `(lazy-highlight ((,class (:foreground ,black :background ,lgray))))
+   `(linum ((,class (:foreground ,dgray :slant italic))))
    `(trailing-whitespace ((,class (:background "red"))))
 
    ;; Mode line faces
@@ -47,6 +48,10 @@
    `(mode-line-inactive ((,class (:box (:line-width -1 :style released-button)
 				       :background "#b0b0b0"
 				       :foreground ,black))))
+
+   ;; Whitespace-mode
+   `(whitespace-empty ((,class (:background unspecified :foreground "red"))))
+   `(whitespace-line ((,class (:background ,lgray :foreground ,black))))
 
    ;; Escape and prompt faces
    `(minibuffer-prompt ((,class (:weight bold :foreground ,lgray))))
