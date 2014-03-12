@@ -1,4 +1,3 @@
-
 ;;; monochrome-bright-theme.el --- A bright Emacs 24 theme for your focused hacking sessions during the day
 
 ;; Copyright (C) 2011 Xavier Noria
@@ -129,6 +128,15 @@
    `(message-cited-text ((,class (:slant italic :foreground ,dgray))))
    `(message-separator ((,class (:weight bold :foreground ,dgray))))
 
+   ;; Org-mode
+   `(org-level-1 ((t (:bold t :foreground ,dgray :height 1.5))))
+   `(org-level-2 ((t (:bold nil :foreground ,dgray :height 1.2))))
+   `(org-level-3 ((t (:bold t :foreground ,dgray :height 1.0))))
+   `(org-level-4 ((t (:bold nil :foreground ,dgray :height 1.0))))
+   `(org-link ((t (:foreground ,sgray :underline t))))
+   `(org-todo ((t (:bold t :foreground "red"))))
+   `(org-done ((t (:bold t :foreground "green"))))
+
    ;; Flyspell
    `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified :slant unspecified :underline ,dgray))))
    `(flyspell-incorrect ((,class (:weight unspecified :foreground unspecified :slant unspecified :underline ,dgray)))))
@@ -144,7 +152,3 @@
 ;; End:
 
 ;;; monochrome-bright-theme.el ends here
-
-
-
-
