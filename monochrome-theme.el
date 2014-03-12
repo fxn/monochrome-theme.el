@@ -127,6 +127,16 @@
    `(message-header-to ((,class (:weight bold :foreground ,lgray))))
    `(message-cited-text ((,class (:slant italic :foreground ,lgray))))
    `(message-separator ((,class (:weight bold :foreground ,lgray))))
+
+   ;; Org-mode
+   `(org-level-1 ((t (:bold t :foreground ,lgray :height 1.5))))
+   `(org-level-2 ((t (:bold nil :foreground ,lgray :height 1.2))))
+   `(org-level-3 ((t (:bold t :foreground ,lgray :height 1.0))))
+   `(org-level-4 ((t (:bold nil :foreground ,lgray :height 1.0))))
+   `(org-link ((t (:foreground ,sgray :underline t))))
+   `(org-todo ((t (:bold t :foreground "red"))))
+   `(org-done ((t (:bold t :foreground "green"))))
+
    ;; Flyspell
    `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified
 				  :slant unspecified :underline ,lgray))))
