@@ -75,6 +75,10 @@
    `(link ((,class (:underline t :foreground ,dgray))))
    `(link-visited ((,class (:underline t :foreground ,dgray))))
 
+   ;; Show-paren
+   `(show-paren-match ((t (:inverse-video t))))
+   `(show-paren-mismatch ((t (:background unspecified :foreground ,dgray))))
+
    ;; Speedbar
    `(speedbar-button-face ((,class (:foreground ,lgray))))
    `(speedbar-file-face ((,class (:foreground ,dgray))))
