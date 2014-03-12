@@ -33,7 +33,7 @@
    `(cursor ((,class (:background ,black))))
 
    ;; Highlighting faces
-   `(fringe ((,class (:foreground ,black :background ,dgray))))
+   `(fringe ((,class (:foreground ,white :background ,dgray))))
    `(highlight ((,class (:foreground ,white :background ,sgray))))
    `(region ((,class (:foreground ,white :background ,dgray))))
    `(secondary-selection ((,class (:foreground: ,white :background ,sgray))))
