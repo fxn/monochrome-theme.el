@@ -33,7 +33,7 @@
    `(cursor ((,class (:background ,black))))
 
    ;; Highlighting faces
-   `(fringe ((,class (:background ,dgray))))
+   `(fringe ((,class (:foreground ,white :background ,dgray))))
    `(highlight ((,class (:foreground ,white :background ,sgray))))
    `(region ((,class (:foreground ,white :background ,dgray))))
    `(secondary-selection ((,class (:foreground: ,white :background ,sgray))))
@@ -74,6 +74,10 @@
    ;; Button and link faces
    `(link ((,class (:underline t :foreground ,dgray))))
    `(link-visited ((,class (:underline t :foreground ,dgray))))
+
+   ;; Show-paren
+   `(show-paren-match ((t (:inverse-video t))))
+   `(show-paren-mismatch ((t (:background unspecified :foreground ,dgray))))
 
    ;; Speedbar
    `(speedbar-button-face ((,class (:foreground ,lgray))))
