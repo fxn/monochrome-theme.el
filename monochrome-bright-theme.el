@@ -1,6 +1,6 @@
 ;;; monochrome-bright-theme.el --- A bright Emacs 24 theme for your focused hacking sessions during the day
 
-;; Copyright (C) 2011 Xavier Noria
+;; Copyright (C) 2011-2014 Xavier Noria
 ;;
 ;; Author: Xavier Noria <fxn@hashref.com>
 ;;
@@ -39,14 +39,19 @@
    `(secondary-selection ((,class (:foreground: ,white :background ,sgray))))
    `(isearch ((,class (:foreground ,white :background ,dgray))))
    `(lazy-highlight ((,class (:foreground ,white :background ,dgray))))
+   `(linum ((,class (:foreground ,dgray :slant italic))))
    `(trailing-whitespace ((,class (:background "red"))))
 
    ;; Mode line faces
    `(mode-line ((,class (:box (:line-width -1 :style released-button)
-:background "#e5e5e5" :foreground ,dgray))))
+			      :background "#e5e5e5" :foreground ,dgray))))
    `(mode-line-inactive ((,class (:box (:line-width -1 :style released-button)
-:background "#b0b0b0"
-:foreground ,black))))
+				       :background "#b0b0b0"
+				       :foreground ,black))))
+
+   ;; Whitespace-mode
+   `(whitespace-empty ((,class (:background unspecified :foreground "red"))))
+   `(whitespace-line ((,class (:background ,lgray :foreground ,black))))
 
    ;; Escape and prompt faces
     `(minibuffer-prompt ((,class (:weight bold :foreground ,dgray))))
