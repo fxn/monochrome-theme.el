@@ -154,9 +154,12 @@
    'monochrome-bright
    `(ansi-color-names-vector [,white ,dgray ,lgray ,sgray])))
 
+;; Autoload for MELPA
+
 ;;;###autoload
-(add-to-list 'custom-theme-load-path (file-name-as-directory
-                                      (file-name-directory load-file-name)))
+(when (and (boundp 'custom-theme-load-path) load-file-name)
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'monochrome-bright)
 
