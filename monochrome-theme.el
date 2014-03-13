@@ -156,6 +156,10 @@
    'monochrome
    `(ansi-color-names-vector [,black ,lgray ,dgray ,sgray])))
 
+;;;###autoload
+(add-to-list 'custom-theme-load-path (file-name-as-directory
+				      (file-name-directory load-file-name)))
+
 (provide-theme 'monochrome)
 
 ;; Local Variables:
