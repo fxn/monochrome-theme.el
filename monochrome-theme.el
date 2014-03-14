@@ -146,6 +146,48 @@
    `(org-todo ((t (:bold t :foreground "red"))))
    `(org-done ((t (:bold t :foreground "green"))))
 
+   ;; helm
+   `(helm-header ((t (:foreground ,dgray :background ,black :underline nil :box nil))))
+   `(helm-source-header
+     ((t (:foreground ,white
+                      :background ,black
+                      :underline nil
+                      :weight bold
+                      :box (:line-width 1 :style released-button)))))
+   `(helm-selection ((t (:background ,lgray :underline t :foreground ,black))))
+   `(helm-selection-line ((t (:background ,black))))
+   `(helm-visible-mark ((t (:foreground ,black :background ,white))))
+   `(helm-candidate-number ((t (:foreground ,lgray :background ,black))))
+   `(helm-separator ((t (:foreground ,white :background ,black))))
+   `(helm-time-zone-current ((t (:foreground ,lgray :background ,black))))
+   `(helm-time-zone-home ((t (:foreground ,white :background ,black))))
+   `(helm-bookmark-addressbook ((t (:foreground ,lgray :background ,black))))
+   `(helm-bookmark-directory ((t (:foreground nil :background nil :inherit helm-ff-directory))))
+   `(helm-bookmark-file ((t (:foreground nil :background nil :inherit helm-ff-file))))
+   `(helm-bookmark-gnus ((t (:foreground ,white :background ,black))))
+   `(helm-bookmark-info ((t (:foreground ,lgray :background ,black))))
+   `(helm-bookmark-man ((t (:foreground ,white :background ,black))))
+   `(helm-bookmark-w3m ((t (:foreground ,white :background ,black))))
+   `(helm-buffer-not-saved ((t (:foreground ,white :background ,black))))
+   `(helm-buffer-process ((t (:foreground ,white :background ,black))))
+   `(helm-buffer-saved-out ((t (:foreground ,lgray :background ,black))))
+   `(helm-buffer-size ((t (:foreground ,lgray :background ,black))))
+   `(helm-ff-directory ((t (:foreground ,white :background ,black :weight bold))))
+   `(helm-ff-file ((t (:foreground ,lgray :background ,black :weight normal))))
+   `(helm-ff-executable ((t (:foreground ,lgray :background ,black :weight normal))))
+   `(helm-ff-invalid-symlink ((t (:foreground ,white :background ,black :weight bold))))
+   `(helm-ff-symlink ((t (:foreground ,white :background ,black :weight bold))))
+   `(helm-ff-prefix ((t (:foreground ,black :background ,white :weight normal))))
+   `(helm-grep-cmd-line ((t (:foreground ,white :background ,black))))
+   `(helm-grep-file ((t (:foreground ,lgray :background ,black))))
+   `(helm-grep-finish ((t (:foreground ,lgray :background ,black))))
+   `(helm-grep-lineno ((t (:foreground ,lgray :background ,black))))
+   `(helm-grep-match ((t (:foreground nil :background nil :inherit helm-match))))
+   `(helm-grep-running ((t (:foreground ,white :background ,black))))
+   `(helm-moccur-buffer ((t (:foreground ,white :background ,black))))
+   `(helm-mu-contacts-address-face ((t (:foreground ,lgray :background ,black))))
+   `(helm-mu-contacts-name-face ((t (:foreground ,lgray :background ,black))))
+
    ;; Flyspell
    `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified
 				  :slant unspecified :underline ,lgray))))
