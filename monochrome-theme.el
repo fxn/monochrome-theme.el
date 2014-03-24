@@ -137,6 +137,19 @@
    `(message-cited-text ((,class (:slant italic :foreground ,lgray))))
    `(message-separator ((,class (:weight bold :foreground ,lgray))))
 
+   ;; EShell
+   `(eshell-prompt ((,class (:foreground ,white :bold t))))
+   `(eshell-ls-archive ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-backup ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-clutter ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-directory ((,class (:foreground ,lgray :bold t))))
+   `(eshell-ls-executable ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-missing ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-product ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-readonly ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-special ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-symlink ((,class (:inherit eshell-ls-unreadable))))
+
    ;; Org-mode
    `(org-level-1 ((t (:bold t :foreground ,lgray :height 1.5))))
    `(org-level-2 ((t (:bold nil :foreground ,lgray :height 1.2))))
