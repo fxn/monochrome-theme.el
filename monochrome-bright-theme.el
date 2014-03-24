@@ -137,6 +137,19 @@
    `(message-cited-text ((,class (:slant italic :foreground ,dgray))))
    `(message-separator ((,class (:weight bold :foreground ,dgray))))
 
+      ;; EShell
+   `(eshell-prompt ((,class (:foreground ,black :bold t))))
+   `(eshell-ls-archive ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-backup ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-clutter ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-directory ((,class (:foreground ,dgray :bold t))))
+   `(eshell-ls-executable ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-missing ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-product ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-readonly ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-special ((,class (:inherit eshell-ls-unreadable))))
+   `(eshell-ls-symlink ((,class (:inherit eshell-ls-unreadable))))
+
    ;; Org-mode
    `(org-level-1 ((t (:bold t :foreground ,dgray :height 1.5))))
    `(org-level-2 ((t (:bold nil :foreground ,dgray :height 1.2))))
@@ -185,7 +198,7 @@
    `(helm-moccur-buffer ((t (:foreground ,dgray :background ,white))))
    `(helm-mu-contacts-address-face ((t (:foreground ,dgray :background ,white))))
    `(helm-mu-contacts-name-face ((t (:foreground ,dgray :background ,white))))
-   
+
    ;; Flyspell
    `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified :slant unspecified :underline ,dgray))))
    `(flyspell-incorrect ((,class (:weight unspecified :foreground unspecified :slant unspecified :underline ,dgray)))))
