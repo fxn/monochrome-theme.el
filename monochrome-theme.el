@@ -33,9 +33,10 @@
    `(cursor ((,class (:background ,lgray))))
 
    ;; Highlighting faces
-   `(fringe ((,class (:foreground ,black :background ,lgray))))
+   `(fringe ((t (:background "black" :foreground "light gray"))))
    `(highlight ((,class (:foreground ,black :background ,lgray))))
    `(region ((,class (:foreground ,black :background ,lgray))))
+   `(region ((t (:background "dim gray" :foreground "white"))))
    `(secondary-selection ((,class (:foreground: ,black :background ,sgray))))
    `(isearch ((,class (:foreground ,black :background ,lgray))))
    `(lazy-highlight ((,class (:foreground ,black :background ,lgray))))
@@ -43,11 +44,8 @@
    `(trailing-whitespace ((,class (:background "red"))))
 
    ;; Mode line faces
-   `(mode-line ((,class (:box (:line-width -1 :style released-button)
-			      :background "#e5e5e5" :foreground ,black))))
-   `(mode-line-inactive ((,class (:box (:line-width -1 :style released-button)
-				       :background "#b0b0b0"
-				       :foreground ,black))))
+   `(mode-line ((t (:background "black" :foreground "black" :box (:line-width -1 :style released-button)))))
+   `(mode-line-inactive ((t (:background "dim gray" :foreground "black" :box (:line-width -1 :style released-button)))))
 
    ;; Whitespace-mode
    `(whitespace-empty ((,class (:background unspecified :foreground "red"))))
@@ -186,6 +184,7 @@
    `(helm-buffer-saved-out ((t (:foreground ,lgray :background ,black))))
    `(helm-buffer-size ((t (:foreground ,lgray :background ,black))))
    `(helm-ff-directory ((t (:foreground ,white :background ,black :weight bold))))
+   `(helm-match ((t (:background "white" :foreground "black"))))
    `(helm-ff-file ((t (:foreground ,lgray :background ,black :weight normal))))
    `(helm-ff-executable ((t (:foreground ,lgray :background ,black :weight normal))))
    `(helm-ff-invalid-symlink ((t (:foreground ,white :background ,black :weight bold))))
@@ -205,7 +204,14 @@
    `(flyspell-duplicate ((,class (:weight unspecified :foreground unspecified
 				  :slant unspecified :underline ,lgray))))
    `(flyspell-incorrect ((,class (:weight unspecified :foreground unspecified
-				  :slant unspecified :underline ,lgray)))))
+                                          :slant unspecified :underline ,lgray)))))
+
+  ;; Magit
+  '(magit-diff-add ((t (:foreground "dark sea green"))))
+  '(magit-diff-del ((t (:foreground "light coral"))))
+  '(magit-diff-file-header ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
+  '(magit-diff-hunk-header ((t (:weight bold))))
+  '(magit-item-highlight ((t (:weight bold))))
 
   (custom-theme-set-variables
    'monochrome
