@@ -48,6 +48,8 @@
    `(lazy-highlight ((,class (:foreground ,black :background ,lgray))))
    `(linum ((,class (:foreground ,dgray :slant italic))))
    `(trailing-whitespace ((,class (:background ,redish))))
+   `(pulse-highlight-face ((,class (:foreground, black :background ,lgray))))
+   `(pulse-highlight-start-face ((,class (:foreground, black :background ,lgray))))
 
    ;; Mode line faces
    `(mode-line ((,class (:box (:line-width -1 :style released-button)
