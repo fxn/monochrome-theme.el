@@ -28,3 +28,7 @@ Patches welcome!
 ### ido
 
 ![Monochrome Theme for Emacs 24: ido](http://raw.github.com/fxn/monochrome-theme.el/master/ido.png)
+
+## License
+
+See [LICENSE](LICENSE).
